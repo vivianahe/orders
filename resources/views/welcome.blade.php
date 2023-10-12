@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
-<body class="antialiased" style="background-image: url('img/bg_container.jpg'); background-size: cover; background-repeat: no-repeat;">
+<body class="antialiased" style="background-image: url('img/bg_container.jpg'); background-size: cover; background-repeat: no-repeat;background-attachment: fixed; background-position: center;">
     <div id="app"></div>
     @vite('resources/js/app.js')
 </body>

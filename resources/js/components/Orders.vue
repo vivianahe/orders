@@ -90,7 +90,8 @@
                                     {{ order.delivery_address }}</label
                                 >
                             </div>
-                            <table class="table table-striped">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
@@ -107,10 +108,12 @@
                                         <th scope="row">{{ index + 1 }}</th>
                                         <td>{{ details.name }}</td>
                                         <td>{{ details.ref }}</td>
-                                        <td>{{ details.quantity }}</td>
+                                        <td class="text-center">{{ details.quantity }}</td>
                                     </tr>
                                 </tbody>
                             </table>
+                            </div>
+                 
                             <div class="mb-3 text-white">
                                 <label class="form-label"
                                     ><b>Estado del pedido:</b>
